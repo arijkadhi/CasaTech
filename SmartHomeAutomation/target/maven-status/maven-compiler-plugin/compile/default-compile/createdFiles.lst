@@ -1,0 +1,12 @@
+interfaces\EnergyConsumer.class
+model\Sensor.class
+exceptions\DeviceNotFoundException.class
+exceptions\InvalidTemperatureException.class
+model\SmartTV.class
+com\myname\smarthomeautomation\SmartHomeAutomation.class
+interfaces\Schedulable.class
+test\DeviceTest.class
+model\SmartLight.class
+interfaces\Controllable.class
+model\SmartDevice.class
+model\Thermostat.class
