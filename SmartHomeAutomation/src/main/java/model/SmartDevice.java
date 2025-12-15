@@ -5,8 +5,7 @@
 package model;
 
 /**
- *
- * @author ASUS-PC
+ * Abstract class representing a generic Smart Device.
  */
 public abstract class SmartDevice {
     protected String id;
@@ -26,5 +25,14 @@ public abstract class SmartDevice {
 
     public String getStatus() {
         return name + " (" + location + ") is " + (isOn ? "ON" : "OFF");
+    }
+
+    // --- THESE ARE THE MISSING METHODS YOU NEED ---
+    public String getName() {
+        return name;
+    }
+
+    public String getId() {
+        return id;
     }
 }
